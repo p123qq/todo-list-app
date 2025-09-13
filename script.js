@@ -129,7 +129,7 @@ function bindEventListeners() {
   // 清除已完成任务按钮点击事件
   clearCompletedBtn.addEventListener('click', clearCompletedTasks);
 }
-
+//
 // 添加新任务
 function addTask() {
   const taskText = taskInput.value.trim();
